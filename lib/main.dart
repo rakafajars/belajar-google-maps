@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_maps/gmaps.dart';
 import 'package:google_maps/location.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Location(),
+      home: const Gmaps(),
     );
   }
 }
